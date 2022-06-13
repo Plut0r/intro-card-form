@@ -19,7 +19,7 @@ body {
 }
 @media screen and (min-width: 900px) {
     body {
-        background-image: url('c:/users/user/projects/intro-form/resources/images/bg-intro-desktop.png');
+        background-image: url('../images/bg-intro-desktop.png');
     }
 }
 html {
@@ -126,7 +126,7 @@ input:focus {
 
 @media screen and (max-width: 800px) {
     body {
-        background-image: url('c:/users/user/projects/intro-form/resources/images/bg-intro-mobile.png');
+        background-image: url('../images/bg-intro-mobile.png');
     }
     .container {
         display: flex;
