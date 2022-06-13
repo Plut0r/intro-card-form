@@ -1,0 +1,170 @@
+/* color variables */
+:root {
+    --red: hsl(0, 100%, 74%);
+    --green:  hsl(154, 59%, 51%);
+    --blue: hsl(248, 32%, 49%);
+    --dark-blue: hsl(249, 10%, 26%);
+    --grayish-blue: hsl(246, 25%, 77%);
+}
+
+/* base properties */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--red);
+}
+@media screen and (min-width: 900px) {
+    body {
+        background-image: url('c:/users/user/projects/intro-form/resources/images/bg-intro-desktop.png');
+    }
+}
+html {
+    font-size: 62.5%;
+}
+/* end of base properties */
+.text-container {
+    color: white;
+}
+.text-head {
+    font-size: 4rem;
+    line-height: 1;
+}
+.text-text {
+    font-size: 1.5rem;
+}
+.trial-container {
+    background-color: var(--blue);
+}
+.trial-text {
+    font-size: 1.5rem;
+    color: var(--grayish-blue);
+    font-weight: 600;
+}
+.trial-span {
+    color: white;
+}
+form {
+    background-color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+}
+button {
+    background-color: var(--green);
+    color: white;
+    width: 80%;
+    height: 13%;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+}
+button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.form-text {
+    color: var(--grayish-blue);
+    font-weight: 400;
+
+}
+.form-span {
+    color: var(--red);
+    font-weight: 700;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.container-2 {
+    width: 800px;
+}
+.trial-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 1.5rem;
+}
+input {
+    width: 80%;
+    height: 13%;
+    border-color: initial;
+    border-style: none;
+    border: 1px solid var(--grayish-blue);
+    border-radius: 1rem;
+    padding-left: 30px;
+}
+input::placeholder {
+    color: var(--grayish-blue);
+    font-weight: 700;
+}
+input:focus {
+    border: 1px solid var(--dark-blue);
+    outline: none;
+}
+
+
+@media screen and (max-width: 800px) {
+    body {
+        background-image: url('c:/users/user/projects/intro-form/resources/images/bg-intro-mobile.png');
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 240px;
+        text-align: center;
+    }
+    .text-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-head {
+        font-size: 2rem;
+        line-height: 1;
+    }
+    .text-text {
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+    .container-2 {
+        width: 240px;
+    }
+    .trial-container {
+        margin-top: 20px;
+    }
+    .trial-text {
+        font-size: 1rem;
+    }
+    form {
+        margin-top: -10px;
+        height: 300px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .form-text {
+        font-size: 0.8rem;
+    }
+    
+
+}

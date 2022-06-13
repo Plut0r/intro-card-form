@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./resources/css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Intro component with sign up form | Plut0r</title>
+
+</head>
+
+<body>
+  <main>
+
+    <div class="container">
+      <div class="text-container">
+        <h1 class="text-head">Learn to code by watching others</h1>
+        <p class="text-text">See how experienced developers solve problems in real-time. Watching scripted tutorials is
+          great,
+          but understanding how developers think is invaluable.</p>
+      </div>
+      <div class="container-2">
+        <div class="trial-container">
+          <p class="trial-text"><span class="trial-span">Try it free 7 days</span> then $20/mo. thereafter</p>
+        </div>
+        <form action="submission.html" method="GET" novalidate>
+          <input type="text" name="firstname" id="firstname" minlength="1" placeholder="First Name" pattern="[a-zA-Z"
+            required> <br>
+          <input type="text" name="lastname" id="lastname" minlength="1" placeholder="Last Name" required> <br>
+          <input type="email" name="email" id="email" placeholder="Email Address" required> <br>
+          <span class="error" aria-live="polite"></span>
+          <input type="password" name="password" id="password" placeholder="Password" required> <br>
+          <button type="submit">Claim your free trial</button> <br>
+          <p class="form-text">By clicking the button, you are agreeing to our <span class="form-span">Terms and
+              Services</span></p>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <script src="./javascript/app.js"></script>
+</body>
+
+</html>
