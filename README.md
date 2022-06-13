@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Git solution url](https://your-solution-url.com)
+- Solution URL: [Git solution url](https://github.com/Plut0r/intro-card-form)
 - Live Site URL: [Git live url](https://your-live-site-url.com)
 
 ### Built with
